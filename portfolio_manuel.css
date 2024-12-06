@@ -1,0 +1,124 @@
+
+header {
+    text-align: center;
+    background-image: url(./image_horizon\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    height:700px;
+    color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+      }
+
+header h2 {
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+}
+
+main {
+    background-color: blueviolet;
+}
+
+h2 {
+    margin-left: 100px;
+}
+
+.presentation {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.presentation p {
+    margin: 20px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.container1 img {
+    width: 100px;
+    height:100px;
+}
+
+.container1 .paragraphe1 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    border: 2px solid white;
+}
+
+.container1 .paragraphe2 {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin-left: 50px;
+    border: 2px solid white;
+}
+
+.container1 .paragraphe3 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    border: 2px solid white;
+}
+
+.paragraphe1 p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.paragraphe2 p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.paragraphe3 p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container_objectifs h3{
+    margin-left: 60px;
+}
+
+.container_valeurs h3{
+    margin-left: 60px;
+}
+
+.container_objectifs {
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.container_valeurs {
+    margin-bottom: 50px;
+}
+
+.container_valeurs p {
+    margin: 20px;
+}
+
+footer {
+    background-color:rgb(105, 172, 210);
+}
